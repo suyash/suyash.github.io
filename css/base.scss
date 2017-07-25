@@ -1,0 +1,25 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+body {
+	padding: 40px 80px;
+	font-family: Helvetica, 'Helvetica Neue', arial, sans-serif;
+	text-align: center;
+}
+
+#links {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+#title {
+	font-weight: normal;
+}
+
+.link {
+	padding: 0 10px;
+	font-weight: bold;
+}
