@@ -2,20 +2,27 @@
 layout: base
 ---
 
-<h1 id="title">Suyash</h1>
-<div id="links">
-	<p class="link"><a href="https://twitter.com/dextrous93">Twitter</a></p>
-	<p class="link"><a href="https://medium.com/@suyash93">Medium</a></p>
-	<p class="link"><a href="https://in.linkedin.com/in/suyash93">Linkedin</a></p>
-	<p class="link"><a href="https://github.com/suyash">GitHub</a></p>
-</div>
+<header>
+	<h1 id="title">Suyash</h1>
 
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	<div id="links">
+		<p class="link"><a href="#about">About</a></p>
+		<p class="link"><a href="#experience">Experience</a></p>
+		<p class="link"><a href="#projects">Projects</a></p>
+	</div>
+</header>
 
-	ga('create', '{{ site.gaid }}', 'auto');
-	ga('send', 'pageview');
-</script>
+<section id="about">
+	{% capture about %}{% include about.md %}{% endcapture %}
+	{{ about | markdownify }}
+</section>
+
+<section id="experience">
+	{% capture experience %}{% include experience.md %}{% endcapture %}
+	{{ experience | markdownify }}
+</section>
+
+<section id="projects">
+	{% capture projects %}{% include projects.md %}{% endcapture %}
+	{{ projects | markdownify }}
+</section>

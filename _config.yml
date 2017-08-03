@@ -1,9 +1,10 @@
 title: Suyash
 email: dextrous93@gmail.com
 description: Suyash's Website
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://suyash.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dextrous93
+medium_username: suyash93
+linkedin_username: suyash93
 github_username:  suyash
 gaid: UA-80985362-1
 
