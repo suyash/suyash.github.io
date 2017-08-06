@@ -1,0 +1,19 @@
+- name: Adobe Systems
+  location: Noida
+  position: Member of Technical Staff 2
+  start: June 2016
+  end: present
+
+- name: Google Summer of Code (Performance Co-Pilot)
+  location: Remote
+  position: Mentor
+  start: April 2017
+  end: present
+  link: https://summerofcode.withgoogle.com/projects/#4556792928403456
+
+- name: Google Summer of Code (Performance Co-Pilot)
+  location: Remote
+  position: Student
+  start: April 2016
+  end: August 2016
+  link: https://summerofcode.withgoogle.com/archive/2016/projects/5093214348378112/
