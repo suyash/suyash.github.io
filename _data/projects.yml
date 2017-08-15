@@ -1,0 +1,7 @@
+- name: speed
+  description: A golang implementation of the Performance Co-Pilot instrumentation API
+  website: https://github.com/performancecopilot/speed
+
+- name: vcrypt
+  description: A golang implementation of visual cryptography algorithms
+  website: https://github.com/suyash/vcrypt
