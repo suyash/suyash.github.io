@@ -17,6 +17,10 @@ body {
 		padding: 40px 2rem;
 	}
 
+	@media (min-width: $grid-breakpoints-lg) {
+		padding: 40px 12rem;
+	}
+
 	font-family: Helvetica, 'Helvetica Neue', arial, sans-serif;
 }
 

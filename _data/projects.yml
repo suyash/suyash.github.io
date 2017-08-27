@@ -4,4 +4,16 @@
 
 - name: vcrypt
   description: A golang implementation of visual cryptography algorithms
-  website: https://github.com/suyash/vcrypt
+  github: vcrypt
+
+- name: nasabot
+  description: A simple slackbot to search and get images and audio from NASA, using AWS Lex and Lambda.
+  github: nasabot
+
+- name: ulid
+  description: C++ implementation of [alizain/ulid](https://github.com/alizain/ulid)
+  github: ulid
+
+- name: pmd
+  description: A simple CLI app using electron to create PDFs for markdown/code.
+  github: pmd
