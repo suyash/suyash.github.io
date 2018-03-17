@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  web:
+    image: jekyll/minimal
+    command: jekyll serve
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - 8080:4000
