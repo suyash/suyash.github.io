@@ -9,10 +9,14 @@ $grid-breakpoints-lg: 992px;
 $grid-breakpoints-xl: 1200px;
 
 body {
-    padding: 1em 4em;
+    padding: 1em 5em;
 
     @media (max-width: $grid-breakpoints-sm) {
 		padding: 1em 2em;
+    }
+
+    @media (min-width: $grid-breakpoints-lg) {
+        padding: 40px 12rem;
     }
 }
 
@@ -26,7 +30,6 @@ body {
 
     .link {
         margin: 1em;
-        text-decoration: underline;
     }
 }
 
