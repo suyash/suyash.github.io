@@ -1,7 +1,7 @@
 title: Suyash
 email: dextrous93@gmail.com
 description: Suyash's Website
-url: "https://suyash.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://suy.io"
 twitter_username: dextrous93
 medium_username: suyash93
 linkedin_username: suyash93
@@ -20,3 +20,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - docker-compose*

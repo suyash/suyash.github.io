@@ -2,13 +2,9 @@
   description: A golang implementation of the Performance Co-Pilot instrumentation API
   website: https://github.com/performancecopilot/speed
 
-- name: vcrypt
-  description: A golang implementation of visual cryptography algorithms
-  github: vcrypt
-
-- name: nasabot
-  description: A simple slackbot to search and get images and audio from NASA, using AWS Lex and Lambda.
-  github: nasabot
+- name: geopattern
+  description: A rust implementation of geometric patterns with a wasm demo
+  website: https://suy.io/geopattern
 
 - name: ulid
   description: C++ implementation of [alizain/ulid](https://github.com/alizain/ulid)
