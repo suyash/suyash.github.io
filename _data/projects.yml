@@ -19,6 +19,10 @@ with a browser demo using TensorFlow.js.
   description: C++ implementation of [alizain/ulid](https://github.com/alizain/ulid)
   github: ulid
 
+- name: timers
+  description: A small offline-capable web app that allows creating countdown timers.
+  website: https://suy.io/timers
+
 - name: pmd
   description: A simple CLI app using electron to create PDFs for markdown/code.
   github: pmd
