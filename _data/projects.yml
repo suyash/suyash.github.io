@@ -1,6 +1,5 @@
 - name: char-rnn
-  description: A small character-based language model implementation in TensorFlow with tf.data and keras APIs along
-with a browser demo using TensorFlow.js.
+  description: A small character based language model implementation in TensorFlow with tf.data and keras APIs along with a browser demo in TensorFlow.js.
   website: https://suy.io/char-rnn
 
 - name: flowy
