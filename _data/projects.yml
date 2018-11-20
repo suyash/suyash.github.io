@@ -1,3 +1,12 @@
+- name: char-rnn
+  description: A small character-based language model implementation in TensorFlow with tf.data and keras APIs along
+with a browser demo using TensorFlow.js.
+  website: https://suy.io/char-rnn
+
+- name: flowy
+  description: A Workflowy clone that works offline, signed out, and allows users to plug-in their own storage.
+  website: https://suy.io/flowy
+
 - name: speed
   description: A golang implementation of the Performance Co-Pilot instrumentation API
   website: https://github.com/performancecopilot/speed
