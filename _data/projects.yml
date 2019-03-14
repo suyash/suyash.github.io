@@ -1,6 +1,6 @@
-- name: char-rnn
-  description: A small character based language model implementation in TensorFlow with tf.data and keras APIs along with a browser demo in TensorFlow.js.
-  website: https://suy.io/char-rnn
+- name: transformer
+  description: A Transformer implementation in Keras' Imperative (Subclassing) API for TensorFlow.
+  website: https://github.com/suyash/transformer/
 
 - name: flowy
   description: A Workflowy clone that works offline, signed out, and allows users to plug-in their own storage.
@@ -13,6 +13,10 @@
 - name: geopattern
   description: A rust implementation of geometric patterns with a wasm demo
   website: https://suy.io/geopattern
+
+- name: char-rnn
+  description: A small character based language model implementation in TensorFlow with tf.data and keras APIs along with a browser demo in TensorFlow.js.
+  website: https://suy.io/char-rnn
 
 - name: ulid
   description: C++ implementation of [alizain/ulid](https://github.com/alizain/ulid)
