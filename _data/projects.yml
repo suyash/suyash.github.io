@@ -1,5 +1,5 @@
 - name: stylizer
-  description: Image to image translation experiments.
+  description: Image to Image translation experiments.
   website: https://stylizer.appspot.com
 
 - name: transformer
@@ -26,9 +26,17 @@
   description: A small character based language model implementation in TensorFlow with tf.data and keras APIs along with a browser demo in TensorFlow.js.
   website: https://suy.io/char-rnn
 
+- name: bots
+  description: A small library to write scalable slack and web chat apps in Go.
+  github: bots
+
 - name: ulid
   description: C++ implementation of [alizain/ulid](https://github.com/alizain/ulid)
   github: ulid
+
+- name: chan
+  description: Go like channels using C++11 Concurrency API, Header Only 
+  github: chan
 
 - name: timers
   description: A small offline-capable web app that allows creating countdown timers.
