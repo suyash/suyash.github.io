@@ -9,6 +9,7 @@ $grid-breakpoints-lg: 992px;
 $grid-breakpoints-xl: 1200px;
 
 body {
+    font-family: Palatino, "Source Serif Pro","Lucida Bright","Book Antiqua",serif;
     padding: 1em 5em;
 
     @media (max-width: $grid-breakpoints-sm) {
