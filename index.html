@@ -10,6 +10,7 @@ layout: base
 		<p class="link"><a href="#experience">Experience</a></p>
 		<p class="link"><a href="#projects">Projects</a></p>
 		<p class="link"><a href="#patents">Patents</a></p>
+		<p class="link"><a href="#certifications">Certifications</a></p>
 	</div>
 </header>
 
@@ -31,4 +32,9 @@ layout: base
 <section id="patents">
 	{% capture patents %}{% include patents.md %}{% endcapture %}
 	{{ patents | markdownify }}
+</section>
+
+<section id="certifications">
+	{% capture certifications %}{% include certifications.md %}{% endcapture %}
+	{{ certifications | markdownify }}
 </section>
