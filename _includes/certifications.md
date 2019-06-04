@@ -1,5 +1,8 @@
 ## [Certifications](#certifications)
 
 {% for c in site.data.certifications %}
-[{{c.name}} ({{c.provider}})]({{c.link}})  
+
+__[{{c.name}}]({{c.link}})__<br>
+{{c.provider}}
+
 {% endfor %}
