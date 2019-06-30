@@ -2,10 +2,6 @@
   description: Image to Image translation experiments.
   website: https://stylizer.appspot.com
 
-- name: transformer
-  description: A Transformer implementation in Keras' Imperative (Subclassing) API for TensorFlow.
-  website: https://github.com/suyash/transformer/
-
 - name: flowy
   description: A Workflowy clone that works offline, signed out, and allows users to plug-in their own storage.
   website: https://suy.io/flowy
@@ -25,6 +21,10 @@
 - name: grokking-deep-learning-rs
   description: A rust implementation of deep learning algorithms from the book Grokking Deep Learning
   website: https://github.com/suyash/grokking-deep-learning-rs
+
+- name: transformer
+  description: A Transformer implementation in Keras' Imperative (Subclassing) API for TensorFlow.
+  website: https://github.com/suyash/transformer/
 
 - name: char-rnn
   description: A small character based language model implementation in TensorFlow with tf.data and keras APIs along with a browser demo in TensorFlow.js.
