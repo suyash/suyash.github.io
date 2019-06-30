@@ -15,8 +15,12 @@
   website: https://github.com/performancecopilot/speed
 
 - name: geopattern
+  description: A flutter port of the geopattern library.
+  website: https://pub.dev/packages/geopattern_flutter
+
+- name: geopattern-rs
   description: A rust implementation of geometric patterns with a WASM demo
-  website: https://suy.io/geopattern
+  website: https://suy.io/geopattern-rs
 
 - name: grokking-deep-learning-rs
   description: A rust implementation of deep learning algorithms from the book Grokking Deep Learning
