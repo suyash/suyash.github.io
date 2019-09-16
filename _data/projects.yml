@@ -2,6 +2,10 @@
   description: Image to Image translation experiments.
   website: https://stylizer.appspot.com
 
+- name: mlt
+  description: Multilingual Neural Machine Translation using Transformers with Conditional Normalization.
+  github: mlt
+
 - name: flowy
   description: A Workflowy clone that works offline, signed out, and allows users to plug-in their own storage.
   website: https://suy.io/flowy
