@@ -14,10 +14,6 @@
   description: A golang implementation of the Performance Co-Pilot instrumentation API
   website: https://github.com/performancecopilot/speed
 
-- name: geopattern
-  description: A flutter port of the geopattern library.
-  website: https://pub.dev/packages/geopattern_flutter
-
 - name: geopattern-rs
   description: A rust implementation of geometric patterns with a WASM demo
   website: https://suy.io/geopattern-rs
@@ -34,6 +30,10 @@
   description: A small character based language model implementation in TensorFlow with tf.data and keras APIs along with a browser demo in TensorFlow.js.
   website: https://suy.io/char-rnn
 
+- name: geopattern
+  description: A flutter port of the geopattern library.
+  website: https://pub.dev/packages/geopattern_flutter
+
 - name: bots
   description: A small library to write scalable slack and web chat apps in Go.
   github: bots
@@ -42,14 +42,14 @@
   description: C++ implementation of [alizain/ulid](https://github.com/alizain/ulid)
   github: ulid
 
-- name: chan
-  description: Go like channels using C++11 Concurrency API, Header Only 
-  github: chan
+# - name: chan
+#   description: Go like channels using C++11 Concurrency API, Header Only 
+#   github: chan
 
-- name: timers
-  description: A small offline-capable web app that allows creating countdown timers.
-  website: https://suy.io/timers
+# - name: timers
+#   description: A small offline-capable web app that allows creating countdown timers.
+#   website: https://suy.io/timers
 
-- name: pmd
-  description: A simple CLI app using electron to create PDFs for markdown/code.
-  github: pmd
+# - name: pmd
+#   description: A simple CLI app using electron to create PDFs for markdown/code.
+#   github: pmd
