@@ -1,0 +1,20 @@
+{
+  "name": "suyash.github.io",
+  "version": "1.0.0",
+  "repository": "https://github.com/suyash/suyash.github.io.git",
+  "author": "suy <git@suy.io>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "parcel build --dist-dir site",
+    "clean": "rm -rf site",
+    "start": "parcel"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "source": [
+    "src/index.html",
+    "src/robots.txt",
+    "src/keybase.txt"
+  ]
+}
