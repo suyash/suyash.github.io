@@ -5,17 +5,12 @@
   "author": "suy <git@suy.io>",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "parcel build --no-source-maps",
+    "build": "parcel build --no-source-maps src/index.html",
     "clean": "rm -rf dist",
-    "start": "parcel"
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "parcel": "^2.0.1"
-  },
-  "source": [
-    "src/index.html",
-    "src/robots.txt",
-    "src/keybase.txt"
-  ]
+  }
 }
