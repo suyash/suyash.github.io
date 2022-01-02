@@ -1,0 +1,33 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
+
+      - run: yarn install
+
+      - run: yarn build
+
+      # https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
+      - name: push
+        run: |
+          if [[ -n $(git status -s -uall) ]];
+          then
+            git add --all
+            git commit --author="github-actions <github-actions@github.com>" -m "build"
+            git push
+          else
+            echo "No Changes to Push"
+          fi
