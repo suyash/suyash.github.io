@@ -20,16 +20,19 @@ jobs:
 
       - run: yarn build
 
+      - name: switch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git fetch --no-recurse-submodules
+          git switch gh-pages
+          mv dist/* ./
+
       # https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
       - name: push
         run: |
           if [[ -n $(git status -s -uall) ]];
           then
-            git config user.name "github-actions"
-            git config user.email "github-actions@github.com"
-            git fetch --no-recurse-submodules
-            git switch gh-pages
-            mv dist/* ./
             git add --all
             git commit -m "build"
             git push
