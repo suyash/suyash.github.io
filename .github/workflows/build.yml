@@ -27,6 +27,9 @@ jobs:
           then
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
+            git fetch --no-recurse-submodules
+            git switch gh-pages
+            mv dist/* ./
             git add --all
             git commit -m "build"
             git push

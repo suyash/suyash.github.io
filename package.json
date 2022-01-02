@@ -5,8 +5,8 @@
   "author": "suy <git@suy.io>",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "parcel build --dist-dir site",
-    "clean": "rm -rf site",
+    "build": "parcel build --no-source-maps",
+    "clean": "rm -rf dist",
     "start": "parcel"
   },
   "devDependencies": {
